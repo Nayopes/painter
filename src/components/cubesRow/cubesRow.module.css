@@ -1,0 +1,14 @@
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(100, auto);
+    height: 18.2px;
+}
+.item1{
+    border: 1px solid rgb(197, 209, 250);
+    border-right: none;
+    border-bottom: none;
+}
+.item:last-child{
+    border-bottom: 1px solid rgb(197, 209, 250);
+}
